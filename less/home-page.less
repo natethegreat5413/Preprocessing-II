@@ -1,3 +1,13 @@
+header {
+  margin:20px 0;
+  padding: 20px 0;
+  display:flex;
+  justify-content: space-between;
+}
+.photo {
+  border-top:1px dashed @font-color;
+}
+
 .home {
 
   .content-section {
@@ -56,6 +66,9 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      .btn {
+        .custom-btn(@main-bg, 200px, @font-color);  
+      }
     }
   }
 }// home
